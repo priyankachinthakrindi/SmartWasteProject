@@ -4,6 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Smart Waste Segregation</title>
+
+    <script>
+        // protect page (optional but good)
+        if (!document.referrer.includes("index.html")) {
+            // allow direct open also if needed, so comment below if strict not required
+            // window.location.href = "index.html";
+        }
+    </script>
+
     <style>
         body {
             margin: 0;
@@ -98,7 +107,7 @@
                 <h3>Smart Bins</h3>
                 <p>Detects waste type and fill level automatically.</p>
             </div>
- 
+
             <div class="card">
                 <h3>Live Monitoring</h3>
                 <p>Track bin status in real time.</p>
